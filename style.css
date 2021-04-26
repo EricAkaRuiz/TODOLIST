@@ -29,5 +29,15 @@ form input,form button{
     font-size: 2rem;
     border: none;
     background: white;
+}
 
+form button{
+    color:lightcoral;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+form button:hover{
+    background:lightcoral;
+    color: white;
 }
